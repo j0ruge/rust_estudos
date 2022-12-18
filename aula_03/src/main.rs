@@ -1,4 +1,11 @@
 fn main() {
-    let x:u8 = 5;
-    let y:u8 = x - 20;
+    //tupla
+    let numbers = (1,2,3.6);
+    let letter = "—";
+    println!("{:?}", numbers); // imprime o conteúdo do 'numbers'
+    println!("\n{:?}", numbers.2); // imprime o conteúdo do 'numbers.2'
+    println!("\n{letter}"); // imprime o conteúdo do 'numbers'
+
 }
+
+
