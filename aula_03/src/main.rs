@@ -1,11 +1,11 @@
 fn main() {
-    //tupla
-    let numbers = (1,2,3.6);
-    let letter = "—";
-    println!("{:?}", numbers); // imprime o conteúdo do 'numbers'
-    println!("\n{:?}", numbers.2); // imprime o conteúdo do 'numbers.2'
-    println!("\n{letter}"); // imprime o conteúdo do 'numbers'
-
+    let mut string = String::new();
+    string.push_str("Hello");
+    string.push_str(" GabirU");
+    string.push('!');
+    println!("\n{string}");
+    string = "GabirU".to_string();
+    println!("\n{string}");    
 }
 
 
